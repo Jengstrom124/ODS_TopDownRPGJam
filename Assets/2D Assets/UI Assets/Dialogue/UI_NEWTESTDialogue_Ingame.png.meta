@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: cdb7942ec67c2ab4583fee0dc2d0a54f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Middle-Long
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 689
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6da36aa41f68a4791c83e9bac910cd
+      internalID: -316958501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_InnerLeft-Long
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 603
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f66a2cb06fa4a740b14f7c66f9618a5
+      internalID: -918715070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Left-Long
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 516
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617f8940ba508b644ac8fcb42d1be871
+      internalID: -8557245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_InnerLeft-Short
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 437
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51054e419cd114eb5ceaa0f3c80ab5
+      internalID: -622193369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_NoName
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 373
+        width: 374
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec3792ee08ebfb429593e3842e50d86
+      internalID: 202043610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Left-Short
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 289
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58710c7af23d863448a90da37d3dafd9
+      internalID: 1129654845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Middle-Short
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 205
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51acaa7b4d1901d4f9ee5eee8cd65382
+      internalID: -513680178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Communicator
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 103
+        width: 380
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7987e7023a97b81429ff81e21ee9d378
+      internalID: 1349373395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_MiniDialogueButton_Default
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 532
+        width: 80
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7731efff34a524697612305ca28572
+      internalID: 558231440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_MiniDialogueButton_Highlighted
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 500
+        width: 80
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb5035545ea9914daaf67edd26b8c8f
+      internalID: 1560922918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_MiniDialogueButton_Selected
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 468
+        width: 80
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821240eae80a05b43b7eb34fa7874d65
+      internalID: -1073668445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueButton_Default
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 779
+        width: 344
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd30c89b96413a846ab54ca905b93caf
+      internalID: -1871457877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueButton_Selected
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 795
+        width: 344
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d5bd9874d93fc429d3bd1bfe14a981
+      internalID: 2051421239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialogueButton_Highlighted
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 810
+        width: 344
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3df4b54e79a944eadb3a98b71a3546
+      internalID: 362487308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Dialogue_ContinuePrompt_SML
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 534
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4213b0ab5164c4f889e1bb0219322b
+      internalID: -296526221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Dialogue_ContinuePrompt_LRG
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 545
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bda7711161e8414ba252f4f5f463449
+      internalID: -1976419584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_DialoguePanel_Left-XLong
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 374
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71401538d06e9544894e67e4176ce7f
+      internalID: -296477785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_XMiniDialogueButton_Default
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 440
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684851bbaccee1b4bb12674e15eb2679
+      internalID: -1145177198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_XMiniDialogueButton_Highlighted
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 417
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d8fbb9148ee04e8e8c0bafabb36d3
+      internalID: -11220777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_XMiniDialogueButton_Selected
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 394
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1e81643675984f8ab27eac420fb2b
+      internalID: -649174822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_XL
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 639
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeba0f2cb5dc6340aa975cb1296d89a
+      internalID: 1124671915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_L
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 688
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38a3f92d24f8eb408bdf28393290597
+      internalID: 312995726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_S
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 726
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080f334312b8814387b843e4cfb0f2a
+      internalID: 1621545604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_XS
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 762
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5646ed24ffd1603408d97ea9856a8f68
+      internalID: 410395094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_M
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 601
+        width: 53
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b3f33982f850b4386e04b4d386c7f4
+      internalID: 2034867303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_LongDouble
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 563
+        width: 63
+        height: 27
+      alignment: 9
+      pivot: {x: 0.49206352, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f2f941ffa908499dc7fe1fe0502ad
+      internalID: 281710715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bark_LongSingle
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 795
+        width: 63
+        height: 24
+      alignment: 9
+      pivot: {x: 0.49206352, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a00a50fb3755ff47b74505a079ef3a3
+      internalID: -402957580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_Bark_XL: 1124671915
+      UI_DialoguePanel_Communicator: 1349373395
+      UI_MiniDialogueButton_Highlighted: 1560922918
+      UI_DialoguePanel_InnerLeft-Short: -622193369
+      UI_Dialogue_ContinuePrompt_SML: -296526221
+      UI_Bark_XS: 410395094
+      UI_Bark_LongDouble: 281710715
+      UI_DialogueButton_Highlighted: 362487308
+      UI_MiniDialogueButton_Default: 558231440
+      UI_MiniDialogueButton_Selected: -1073668445
+      UI_Bark_L: 312995726
+      UI_Bark_S: 1621545604
+      UI_DialoguePanel_Middle-Short: -513680178
+      UI_Bark_M: 2034867303
+      UI_Bark_LongSingle: -402957580
+      UI_DialoguePanel_NoName: 202043610
+      UI_XMiniDialogueButton_Selected: -649174822
+      UI_DialoguePanel_InnerLeft-Long: -918715070
+      UI_DialoguePanel_Middle-Long: -316958501
+      UI_DialogueButton_Default: -1871457877
+      UI_Dialogue_ContinuePrompt_LRG: -1976419584
+      UI_DialoguePanel_Left-Short: 1129654845
+      UI_XMiniDialogueButton_Highlighted: -11220777
+      UI_XMiniDialogueButton_Default: -1145177198
+      UI_DialogueButton_Selected: 2051421239
+      UI_DialoguePanel_Left-Long: -8557245
+      UI_DialoguePanel_Left-XLong: -296477785
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

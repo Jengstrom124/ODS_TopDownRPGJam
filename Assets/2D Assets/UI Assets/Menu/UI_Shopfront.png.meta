@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: 8707acb9a5bbcbc4ba22d5f75cd58bfa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Shopfront_Main-Top
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 202
+        width: 153
+        height: 110
+      alignment: 9
+      pivot: {x: 0.503268, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354e867c22deec048919d118e947d8f0
+      internalID: 897268203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_SubMenu_A
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 262
+        width: 51
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4901961, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153637052b3e5f6468edac5dc66a6028
+      internalID: -1868139571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_SubMenu_Button-Highlight
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 276
+        width: 47
+        height: 13
+      alignment: 9
+      pivot: {x: 0.48936167, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60088eefa60fb114e933cfa6e0035474
+      internalID: -861526580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Money
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 263
+        width: 81
+        height: 31
+      alignment: 9
+      pivot: {x: 0.50617284, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5661dc6c941f48642ae3e40eed490fcf
+      internalID: -887023428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_SubMenu_Button-Default
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 262
+        width: 47
+        height: 13
+      alignment: 9
+      pivot: {x: 0.48936167, y: 0.4615385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1759923fb9090fe4c855eda7b864c2e6
+      internalID: -1398172431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_SubMenu_B
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 216
+        width: 51
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4901961, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d752357477eb24daa8c14137e9aa04
+      internalID: 498576650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Icon_Money
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 238
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6ea1542f33cf443b61eac317af2761
+      internalID: 786078900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Main-Bottom
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 94
+        width: 153
+        height: 99
+      alignment: 9
+      pivot: {x: 0.503268, y: 0.4949495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a943381348699c4198858b766bbda34
+      internalID: 381908179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Button-Black
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 176
+        width: 143
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b34e9b57b63fd4bb968bea4b72488b
+      internalID: -1846414549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Button-Default
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 154
+        width: 143
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52fe9453518bfb43bbcda9b7cb25691
+      internalID: -1192327206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Button-Highlight
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 133
+        width: 143
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f090dd360ce882242a8298a911c291be
+      internalID: -1525343408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Button-Selected
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 113
+        width: 143
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd171990fcd2dc44b33f738b416bd00
+      internalID: 1561737358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Icon_ESC
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 98
+        width: 20
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0181b56135b98d74486a7a37954b97ef
+      internalID: 1286061214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Icon_E
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 98
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446a01b82b4ff94c8ca0e6a1e06e29f
+      internalID: 1688253986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Main_Button-Default
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 68
+        width: 74
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d71a0ee769c8b499ac77c94145f40b
+      internalID: -1483774427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Main_Button-Selected
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 68
+        width: 74
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a643f891b0bb2b74e907947c6e7f28db
+      internalID: 392601257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Shopfront_Main_Button-Highlight
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 40
+        width: 74
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59418fabb6176764a8cdf8c46aab892e
+      internalID: 1619029758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Moonbites
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 267
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c9917df6bc606499c5c3d2b2f0ae42
+      internalID: -1512290363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_Moonbites: -1512290363
+      UI_Shopfront_Button-Black: -1846414549
+      UI_Shopfront_Button-Default: -1192327206
+      UI_Shopfront_Button-Highlight: -1525343408
+      UI_Shopfront_Button-Selected: 1561737358
+      UI_Shopfront_Icon_E: 1688253986
+      UI_Shopfront_Icon_ESC: 1286061214
+      UI_Shopfront_Icon_Money: 786078900
+      UI_Shopfront_Main-Bottom: 381908179
+      UI_Shopfront_Main-Top: 897268203
+      UI_Shopfront_Main_Button-Default: -1483774427
+      UI_Shopfront_Main_Button-Highlight: 1619029758
+      UI_Shopfront_Main_Button-Selected: 392601257
+      UI_Shopfront_Money: -887023428
+      UI_Shopfront_SubMenu_A: -1868139571
+      UI_Shopfront_SubMenu_B: 498576650
+      UI_Shopfront_SubMenu_Button-Default: -1398172431
+      UI_Shopfront_SubMenu_Button-Highlight: -861526580
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

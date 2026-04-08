@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6723743122837968160}
   - component: {fileID: 6723743122837968163}
+  - component: {fileID: 1156830677247921454}
   m_Layer: 0
   m_Name: InteractionManager
   m_TagString: Untagged
@@ -62,6 +63,27 @@ MonoBehaviour:
     triggerGO: {fileID: 6723743124729969724}
     triggerDirection: {x: 1, y: 0}
   player: {fileID: 6723743123065328739}
+--- !u!50 &1156830677247921454
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6723743122837968161}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &6723743122844612553
 GameObject:
   m_ObjectHideFlags: 0

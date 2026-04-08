@@ -59,6 +59,7 @@ public class InteractionManager : MonoBehaviour
 
 
             player.SetCurrentInteractable(collision.GetComponent<IInteractable>());
+            Debug.Log("Interaction Found");
             //Show 'E'
         }
     }
