@@ -32,6 +32,8 @@ public class PlayerController : MonoBehaviour
         playerInput.actions.FindAction("Movement").canceled += OnMovementOnperformed;
         playerInput.actions.FindAction("Sprint").performed += OnSprintOnperformed;
         playerInput.actions.FindAction("Sprint").canceled += OnSprintOnperformed;
+
+        playerInput.actions.FindAction("ProgressDialogue").performed += aContext => DialogueManager.instance.ContinueDialogue();
     }
 
     private void OnInteractPerformed(InputAction.CallbackContext aContext)

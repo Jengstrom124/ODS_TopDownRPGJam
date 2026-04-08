@@ -271,6 +271,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participants:
+  - dialogueProfile: {fileID: 11400000, guid: 76c71e4d1db42ce4fbfdffc86c1ba593, type: 2}
+    dialogueBox: 5
+    spriteEntryTween: 0
+    spriteExitTween: 0
+    overrideOffset: 0
+    customOffset: 0
   - dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
     dialogueBox: 0
     spriteEntryTween: 0
@@ -307,7 +313,7 @@ MonoBehaviour:
   diagloueEntries:
   - dialogue: Test
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 76c71e4d1db42ce4fbfdffc86c1ba593, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
