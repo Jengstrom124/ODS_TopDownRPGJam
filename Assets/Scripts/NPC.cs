@@ -6,6 +6,7 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] bool forceBad = false;
     [SerializeField] GameObject goodDialogue, badDialogue;
+    [SerializeField] AudioClip deathSFX;
     //REF
     [SerializeField] bool isGood = true;
 
@@ -17,7 +18,7 @@ public class NPC : MonoBehaviour
             return;
         }
 
-        
+
         int i = Random.Range(0, 2);
         if(i == 1) isGood = false;
         else isGood = true;
@@ -28,6 +29,7 @@ public class NPC : MonoBehaviour
 
     public void Exterminate()
     {
+        AudioManager.instance.PlayOneShot(deathSFX);
         gameObject.SetActive(false);
     }
 }

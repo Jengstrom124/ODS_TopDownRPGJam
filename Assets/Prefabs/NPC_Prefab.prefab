@@ -49,6 +49,7 @@ MonoBehaviour:
   forceBad: 0
   goodDialogue: {fileID: 0}
   badDialogue: {fileID: 0}
+  deathSFX: {fileID: 8300000, guid: de0fefadbdf374d4a87a9799fe07e6f7, type: 3}
   isGood: 1
 --- !u!212 &129001098260670389
 SpriteRenderer:
