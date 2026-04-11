@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Potato_Talk
+  m_Name: BadPotato_Idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -200103211, guid: 8bed3ffa236e6244fb345b1deaa95ac4, type: 3}
-    - time: 0.083333336
-      value: {fileID: -1705309117, guid: da84a6371a4d3994dae79e20b3a81a9d, type: 3}
-    - time: 0.16666667
-      value: {fileID: -1705309117, guid: da84a6371a4d3994dae79e20b3a81a9d, type: 3}
+      value: {fileID: -332476589, guid: 892f2483f81eb114589d618b89d24d28, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -200103211, guid: 8bed3ffa236e6244fb345b1deaa95ac4, type: 3}
-    - {fileID: -1705309117, guid: da84a6371a4d3994dae79e20b3a81a9d, type: 3}
-    - {fileID: -1705309117, guid: da84a6371a4d3994dae79e20b3a81a9d, type: 3}
+    - {fileID: -332476589, guid: 892f2483f81eb114589d618b89d24d28, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.18333334
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
