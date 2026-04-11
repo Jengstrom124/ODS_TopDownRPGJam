@@ -93,27 +93,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NPC_Pineapple_DIA_0
-      rect:
-        serializedVersion: 2
-        x: 692
-        y: 1487
-        width: 43
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3bc78b40e6ae4ffb89e60a0d581c0f0
-      internalID: -997613866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NPC_Pineapple_DIA_1
       rect:
         serializedVersion: 2
@@ -122,7 +101,7 @@ TextureImporter:
         width: 308
         height: 655
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,12 +117,12 @@ TextureImporter:
       name: NPC_Pineapple_DIA_2
       rect:
         serializedVersion: 2
-        x: 1316
+        x: 1318
         y: 585
         width: 534
         height: 850
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

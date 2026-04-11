@@ -91,7 +91,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Penny_DIA_2
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 646
+        width: 432
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874ca6ed339313841b08b0003b8273a2
+      internalID: 1071030069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Penny_DIA_4
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 540
+        width: 486
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d198770a470b249890038e8bb62896
+      internalID: 2127311549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -102,7 +144,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NPC_Penny_DIA_0: 639032400
+      NPC_Penny_DIA_1: 1811633670
+      NPC_Penny_DIA_2: 1071030069
+      NPC_Penny_DIA_3: -294745855
+      NPC_Penny_DIA_4: 2127311549
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

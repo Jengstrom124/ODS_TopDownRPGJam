@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueProfile_Penny
   m_EditorClassIdentifier: 
   characterName: Penny
-  dialogueSprite: {fileID: 0}
+  dialogueSprite: {fileID: 2127311549, guid: cb97b73f146cc4d4794b0b2a0070ed1a, type: 3}
   dialogueAnimator: {fileID: 0}
   voiceClip: {fileID: 8300000, guid: cfd0393ac62aa4d37916c1ab41b10861, type: 3}
   flipDialogueSprite: 0

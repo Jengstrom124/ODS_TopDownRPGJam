@@ -134,6 +134,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1119103280, guid: e56f1033523586d448d89740981b15a3, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: startSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 90bf978ea41b8422cb9198a5880a6c54, type: 3}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
       objectReference: {fileID: 143928106}
@@ -1645,7 +1649,7 @@ MonoBehaviour:
       rightButtonEvent:
         m_PersistentCalls:
           m_Calls: []
-      showDialogueReplyButtons: 0
+      showDialogueReplyButtons: 1
       replyOptions:
       - replyText: Lier say what!
         endDialogueOnSelect: 0
@@ -3010,6 +3014,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2043611497, guid: d63a19d5850e52d45bb509bea6e0431e, type: 3}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: startSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: f2e3520b338df45b8b3a840611e6573f, type: 3}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: badDialogue
+      value: 
+      objectReference: {fileID: 1426965195}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: goodDialogue
+      value: 
+      objectReference: {fileID: 338873438}
     - target: {fileID: 8118634685963411749, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: m_Name
       value: Penny
@@ -3321,6 +3337,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: startSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: bd8660ba0c4a747e592e13be767cae8d, type: 3}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
       objectReference: {fileID: 50994565}
@@ -3585,7 +3605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &338873439
 Transform:
   m_ObjectHideFlags: 0
@@ -3625,7 +3645,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.78, y: 3.91}
   m_EdgeRadius: 0
 --- !u!114 &338873441
 MonoBehaviour:
@@ -3747,7 +3767,7 @@ MonoBehaviour:
       replyOptions: []
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -3871,7 +3891,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -3995,7 +4015,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -4119,7 +4139,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -4924,6 +4944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900260103}
+  - component: {fileID: 900260104}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -4951,6 +4972,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &900260104
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900260102}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8e2f49d00b18b45bc804df7d82d2e409, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &967352164
 GameObject:
   m_ObjectHideFlags: 0
@@ -5348,6 +5465,7 @@ MonoBehaviour:
   forceBad: 0
   goodDialogue: {fileID: 1851211624}
   badDialogue: {fileID: 2107661216}
+  startSFX: {fileID: 8300000, guid: 9ecac8a7f90bc465d8b8813872c16ab9, type: 3}
   deathSFX: {fileID: 8300000, guid: de0fefadbdf374d4a87a9799fe07e6f7, type: 3}
   isGood: 1
 --- !u!1 &1351089914
@@ -5445,7 +5563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1426965196
 Transform:
   m_ObjectHideFlags: 0
@@ -5485,7 +5603,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.78, y: 3.91}
   m_EdgeRadius: 0
 --- !u!114 &1426965198
 MonoBehaviour:
@@ -5607,7 +5725,7 @@ MonoBehaviour:
       replyOptions: []
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -5718,7 +5836,7 @@ MonoBehaviour:
       rightButtonEvent:
         m_PersistentCalls:
           m_Calls: []
-      showDialogueReplyButtons: 1
+      showDialogueReplyButtons: 0
       replyOptions:
       - replyText: When were you eaten?
         endDialogueOnSelect: 0
@@ -5731,7 +5849,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -5842,7 +5960,7 @@ MonoBehaviour:
       rightButtonEvent:
         m_PersistentCalls:
           m_Calls: []
-      showDialogueReplyButtons: 1
+      showDialogueReplyButtons: 0
       replyOptions:
       - replyText: What are you? (just double checking)
         endDialogueOnSelect: 0
@@ -5855,7 +5973,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -5917,7 +6035,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: NOO
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -5966,7 +6084,7 @@ MonoBehaviour:
       rightButtonEvent:
         m_PersistentCalls:
           m_Calls: []
-      showDialogueReplyButtons: 1
+      showDialogueReplyButtons: 0
       replyOptions:
       - replyText: Are you employed, if so for what?
         endDialogueOnSelect: 0
@@ -5979,7 +6097,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: 
     speaker:
-      dialogueProfile: {fileID: 0}
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -8901,6 +9019,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -272445090, guid: ac1340990f31b25408024be90af4478c, type: 3}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: startSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 22d322b8ddcd944e68d313f80766c2c7, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
