@@ -431,16 +431,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
       showDialogueReplyButtons: 1
-      replyOptions:
-      - replyText: So you are just a pile of ashes?
-        endDialogueOnSelect: 0
-        startNewTrigger: 0
-        onSelectedEvent:
-          m_PersistentCalls:
-            m_Calls: []
-        hideOnSelect: 0
-        triggerLocalEndEvent: 0
-        replySelected: 0
+      replyOptions: []
   - dialogue: 
     speaker:
       dialogueProfile: {fileID: 0}
@@ -555,16 +546,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
       showDialogueReplyButtons: 1
-      replyOptions:
-      - replyText: So your not safe to eat?
-        endDialogueOnSelect: 0
-        startNewTrigger: 0
-        onSelectedEvent:
-          m_PersistentCalls:
-            m_Calls: []
-        hideOnSelect: 0
-        triggerLocalEndEvent: 0
-        replySelected: 0
+      replyOptions: []
   - dialogue: 
     speaker:
       dialogueProfile: {fileID: 0}
@@ -618,7 +600,7 @@ MonoBehaviour:
           m_Calls: []
       showDialogueReplyButtons: 1
       replyOptions:
-      - replyText: Q3. So why should i keep you here?
+      - replyText: why should I keep you here?
         endDialogueOnSelect: 0
         startNewTrigger: 0
         onSelectedEvent:
@@ -679,16 +661,7 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
       showDialogueReplyButtons: 1
-      replyOptions:
-      - replyText: Q3. So why should i keep you here?
-        endDialogueOnSelect: 0
-        startNewTrigger: 0
-        onSelectedEvent:
-          m_PersistentCalls:
-            m_Calls: []
-        hideOnSelect: 0
-        triggerLocalEndEvent: 0
-        replySelected: 0
+      replyOptions: []
   myDialogueEntries: []
 --- !u!4 &484190027
 Transform:
@@ -763,7 +736,7 @@ MonoBehaviour:
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
-  - dialogue: Hello non-spud cell
+  - dialogue: Hello white cell
     speaker:
       dialogueProfile: {fileID: 0}
       talkAnimation: {fileID: 0}
