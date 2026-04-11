@@ -91,7 +91,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Penny_ENV_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 631
+        width: 314
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd23a25dcc3b44ab5aef2c392f1814
+      internalID: -2043611497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -102,7 +123,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NPC_Penny_ENV_0: 556661510
+      NPC_Penny_ENV_1: -2040283369
+      NPC_Penny_ENV_2: 1867012315
+      NPC_Penny_ENV_3: -2043611497
+      NPC_Penny_ENV_4: 469567894
+      NPC_Penny_ENV_5: 1536022101
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

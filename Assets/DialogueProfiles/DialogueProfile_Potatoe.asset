@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DialogueProfile_Potatoe
   m_EditorClassIdentifier: 
   characterName: Potatoe
-  dialogueSprite: {fileID: -2413806693520163455, guid: e074a9b4b276847b0b578d2c96d2c1db, type: 3}
-  dialogueAnimator: {fileID: 0}
+  dialogueSprite: {fileID: -200103211, guid: 8bed3ffa236e6244fb345b1deaa95ac4, type: 3}
+  dialogueAnimator: {fileID: 9100000, guid: be62771d4e1a04848aab4677fbca0304, type: 2}
   voiceClip: {fileID: 0}
   flipDialogueSprite: 0
   offset: 0
