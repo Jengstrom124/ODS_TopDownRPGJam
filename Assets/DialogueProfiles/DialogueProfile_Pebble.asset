@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueProfile_Pebble
   m_EditorClassIdentifier: 
   characterName: Pebble
-  dialogueSprite: {fileID: -2413806693520163455, guid: e074a9b4b276847b0b578d2c96d2c1db, type: 3}
+  dialogueSprite: {fileID: -984592442, guid: aedc96442a9f3ec47b5c494ee6553625, type: 3}
   dialogueAnimator: {fileID: 0}
   voiceClip: {fileID: 0}
   flipDialogueSprite: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DialogueProfile_Grandma
   m_EditorClassIdentifier: 
   characterName: Grandma Ashes
-  dialogueSprite: {fileID: -2413806693520163455, guid: e074a9b4b276847b0b578d2c96d2c1db, type: 3}
+  dialogueSprite: {fileID: 1915923113, guid: b960c46764596d34da9cf94cca81b577, type: 3}
   dialogueAnimator: {fileID: 0}
   voiceClip: {fileID: 0}
   flipDialogueSprite: 0
