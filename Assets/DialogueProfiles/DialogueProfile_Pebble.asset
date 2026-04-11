@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: Pebble
   dialogueSprite: {fileID: -984592442, guid: aedc96442a9f3ec47b5c494ee6553625, type: 3}
   dialogueAnimator: {fileID: 0}
-  voiceClip: {fileID: 0}
+  voiceClip: {fileID: 8300000, guid: 58978c74fc33f4155b685c025855803a, type: 3}
   flipDialogueSprite: 0
   offset: 0
   innerOffset: 0

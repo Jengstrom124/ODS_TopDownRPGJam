@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: Pineapple
   dialogueSprite: {fileID: -2413806693520163455, guid: e074a9b4b276847b0b578d2c96d2c1db, type: 3}
   dialogueAnimator: {fileID: 0}
-  voiceClip: {fileID: 0}
+  voiceClip: {fileID: 8300000, guid: cc0f26dc2c2c7420baf04e6ad1b8b712, type: 3}
   flipDialogueSprite: 0
   offset: 0
   innerOffset: 0

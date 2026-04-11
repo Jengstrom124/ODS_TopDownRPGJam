@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: Grandma Ashes
   dialogueSprite: {fileID: 1915923113, guid: b960c46764596d34da9cf94cca81b577, type: 3}
   dialogueAnimator: {fileID: 0}
-  voiceClip: {fileID: 0}
+  voiceClip: {fileID: 8300000, guid: a7c4c20b4c1894b5da38764af5c8e299, type: 3}
   flipDialogueSprite: 0
   offset: 0
   innerOffset: 0
