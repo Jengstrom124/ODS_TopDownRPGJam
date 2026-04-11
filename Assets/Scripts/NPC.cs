@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Security;
 using UnityEngine;
 
 public class NPC : MonoBehaviour
@@ -31,6 +32,7 @@ public class NPC : MonoBehaviour
     {
         if(startSFX == null) return;       
         AudioManager.instance.PlayOneShot(startSFX);
+        Debug.Log("Convo Started");
     }
 
     public void Exterminate()

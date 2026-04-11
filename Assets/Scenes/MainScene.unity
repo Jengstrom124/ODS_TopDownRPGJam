@@ -341,7 +341,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 565890616}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -1078,10 +1090,34 @@ MonoBehaviour:
   destroyAfterTrigger: 0
   localOnFinishUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 647201082}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2130586487}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -1714,6 +1750,17 @@ MonoBehaviour:
       showDialogueReplyButtons: 0
       replyOptions: []
   myDialogueEntries: []
+--- !u!114 &128838471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+  m_PrefabInstance: {fileID: 4827569}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d63e22ecd4c5654692329961d3aa2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &141308452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1932,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 128838471}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -2322,10 +2381,34 @@ MonoBehaviour:
   destroyAfterTrigger: 0
   localOnFinishUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 647201082}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2130586487}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -3708,7 +3791,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 772871185}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -4470,6 +4565,17 @@ Transform:
   m_Father: {fileID: 900260103}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &565890616 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+  m_PrefabInstance: {fileID: 316841982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d63e22ecd4c5654692329961d3aa2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &579626147
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,6 +4786,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f6001577927884aa80e481949a4011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &647201082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8118634686793466639, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+  m_PrefabInstance: {fileID: 2130586485}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &739079895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,6 +4959,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &772871185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+  m_PrefabInstance: {fileID: 173543827}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d63e22ecd4c5654692329961d3aa2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &784009008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,7 +5788,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 772871185}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -6336,7 +6470,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 128838471}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -6864,7 +7010,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266083391}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -8044,7 +8202,19 @@ MonoBehaviour:
         m_CallState: 2
   localOnStartUnityEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1266083391}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: OnConversationStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   dialogueLaunched: 0
   index: 0
   diagloueEntries:
@@ -9086,6 +9256,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8118634685963411751, guid: f0a60c906366af64fbefede820f09a24, type: 3}
   m_PrefabInstance: {fileID: 2130586485}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130586487 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+  m_PrefabInstance: {fileID: 2130586485}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d63e22ecd4c5654692329961d3aa2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2136625481
 GameObject:
   m_ObjectHideFlags: 0
