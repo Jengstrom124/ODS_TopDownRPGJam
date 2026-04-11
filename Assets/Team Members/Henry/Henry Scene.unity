@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 50391271}
   - component: {fileID: 50391270}
   - component: {fileID: 50391269}
+  - component: {fileID: 50391272}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -175,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10.130206
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -206,6 +207,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &50391272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50391268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &484190025
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +251,7 @@ GameObject:
   - component: {fileID: 484190027}
   - component: {fileID: 484190026}
   m_Layer: 0
-  m_Name: GoodPebbleDialogue
+  m_Name: GoodPineDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -503,7 +537,7 @@ MonoBehaviour:
         hideOnSelect: 0
         triggerLocalEndEvent: 0
         replySelected: 0
-  - dialogue: A pineapple
+  - dialogue: A pineapple named pine :)
     speaker:
       dialogueProfile: {fileID: 0}
       talkAnimation: {fileID: 0}
@@ -953,6 +987,1128 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &930246498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930246500}
+  - component: {fileID: 930246499}
+  m_Layer: 0
+  m_Name: GoodPennyDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &930246499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930246498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ab2b1d0ceddd34e8014715e6c7b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  participants: []
+  triggerDialogueFinisedEvent: 0
+  triggerDialogueStartedEvent: 0
+  multipleDialogueEntries: 0
+  repeatDialogueEntries: 0
+  stopTriggerAfterDialogue: 0
+  isCutscene: 0
+  triggerOnAwake: 0
+  awakeDelay: 0
+  triggerOnEnableUsingTimeline: 0
+  showCinematicBars: 0
+  isInteractable: 1
+  useTriggerBox: 0
+  allowContinueousTriggers: 0
+  showAllCharactersOnStart: 0
+  continueOnDialogueEnd: 0
+  myContinuationDialogue: {fileID: 0}
+  forceQuestionMarkIcon: 0
+  turnOffInteract: 0
+  destroyAfterTrigger: 0
+  localOnFinishUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  localOnStartUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueLaunched: 0
+  index: 0
+  diagloueEntries:
+  - dialogue: PLEASE DON'T KICK ME OUT, IM MADE OF CHOCOLATE PLEASE PLEASE
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 0
+      replyOptions: []
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: When were you eaten?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: A FEW MINUTES AGO
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: When were you eaten?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: What are you?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: IM A CHOCOLATE COIN!
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: What are you? (just double checking)
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: Were you lying on any answer?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: NO
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: Are you employed, if so for what?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: (She seams like a parranoid child)
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  myDialogueEntries: []
+--- !u!4 &930246500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930246498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1841487712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841487714}
+  - component: {fileID: 1841487713}
+  m_Layer: 0
+  m_Name: BadPennyDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1841487713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841487712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ab2b1d0ceddd34e8014715e6c7b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  participants: []
+  triggerDialogueFinisedEvent: 0
+  triggerDialogueStartedEvent: 0
+  multipleDialogueEntries: 0
+  repeatDialogueEntries: 0
+  stopTriggerAfterDialogue: 0
+  isCutscene: 0
+  triggerOnAwake: 0
+  awakeDelay: 0
+  triggerOnEnableUsingTimeline: 0
+  showCinematicBars: 0
+  isInteractable: 1
+  useTriggerBox: 0
+  allowContinueousTriggers: 0
+  showAllCharactersOnStart: 0
+  continueOnDialogueEnd: 0
+  myContinuationDialogue: {fileID: 0}
+  forceQuestionMarkIcon: 0
+  turnOffInteract: 0
+  destroyAfterTrigger: 0
+  localOnFinishUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  localOnStartUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueLaunched: 0
+  index: 0
+  diagloueEntries:
+  - dialogue: PLEASE DON'T KICK ME OUT, IM MADE OF CHOCOLATE PLEASE
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 0
+      replyOptions: []
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: When were you eaten?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: A FEW MINUTES AGO
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: When were you eaten?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: What are you?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: IM A CHOCOLATE COIN!
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: What are you? (just double checking)
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: Were you lying on any answer?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: NOO
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: Are you employed, if so for what?
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  - dialogue: 
+    speaker:
+      dialogueProfile: {fileID: 0}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 0
+      useSmallButtons: 0
+      leftButtonText: 
+      rightButtonText: 
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 1
+      replyOptions:
+      - replyText: (She seams like a parranoid child)
+        endDialogueOnSelect: 0
+        startNewTrigger: 0
+        onSelectedEvent:
+          m_PersistentCalls:
+            m_Calls: []
+        hideOnSelect: 0
+        triggerLocalEndEvent: 0
+        replySelected: 0
+  myDialogueEntries: []
+--- !u!4 &1841487714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841487712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1993689134
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,7 +2120,7 @@ GameObject:
   - component: {fileID: 1993689136}
   - component: {fileID: 1993689135}
   m_Layer: 0
-  m_Name: BadPebbleDialogue
+  m_Name: BadPineDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
