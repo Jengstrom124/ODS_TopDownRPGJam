@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8118634685963411749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8118634685963411751}
+  - component: {fileID: 8118634685963411748}
+  m_Layer: 0
+  m_Name: NPC_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8118634685963411751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118634685963411749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8118634686793466638}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8118634685963411748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118634685963411749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d63e22ecd4c5654692329961d3aa2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodDialogue: {fileID: 0}
+  badDialogue: {fileID: 0}
+  isGood: 1
+--- !u!1 &8118634686793466639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8118634686793466638}
+  - component: {fileID: 8118634686793466633}
+  m_Layer: 0
+  m_Name: KillOrNot?
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8118634686793466638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118634686793466639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8118634685963411751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8118634686793466633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118634686793466639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ab2b1d0ceddd34e8014715e6c7b1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  participants:
+  - dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
+    dialogueBox: 0
+    spriteEntryTween: 0
+    spriteExitTween: 0
+    overrideOffset: 0
+    customOffset: 0
+  triggerDialogueFinisedEvent: 0
+  triggerDialogueStartedEvent: 0
+  multipleDialogueEntries: 0
+  repeatDialogueEntries: 0
+  stopTriggerAfterDialogue: 0
+  isCutscene: 0
+  triggerOnAwake: 1
+  awakeDelay: 0
+  triggerOnEnableUsingTimeline: 0
+  showCinematicBars: 0
+  isInteractable: 1
+  useTriggerBox: 0
+  allowContinueousTriggers: 0
+  showAllCharactersOnStart: 0
+  continueOnDialogueEnd: 0
+  myContinuationDialogue: {fileID: 0}
+  forceQuestionMarkIcon: 0
+  turnOffInteract: 0
+  destroyAfterTrigger: 0
+  localOnFinishUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  localOnStartUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueLaunched: 0
+  index: 0
+  diagloueEntries:
+  - dialogue: Should we exterminate them?
+    speaker:
+      dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
+      talkAnimation: {fileID: 0}
+      additionalAnims: 0
+      idleAnimation: {fileID: 0}
+      uniqueAnimation: {fileID: 0}
+      overrideSortLayer: 0
+      overrideDialogueBoxType: 0
+      dialogueBox: 0
+      isNewSpeaker: 0
+    listeners: []
+    events:
+      onDialogueStartEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      onDialogueFinishEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      otherEventHolder:
+        m_PersistentCalls:
+          m_Calls: []
+    customOptions:
+      endDialogue: 0
+      triggerEvents: 0
+      nonSkippable: 0
+      hideSpeakerName: 0
+      requiredValue: 0
+      fontSize: 0
+      typeSpeed: 0
+      coloursToCheck: 
+      useCentreAlignment: 0
+      avoidMultiplePunctuactionWait: 0
+      oneOffCustomSFX:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    dialogueButtonOptions:
+      showButtonsAfterDialogue: 1
+      useSmallButtons: 0
+      leftButtonText: YES!
+      rightButtonText: No....
+      leftButtonEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8118634685963411748}
+            m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+            m_MethodName: Exterminate
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      rightButtonEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      showDialogueReplyButtons: 0
+      replyOptions: []
+  myDialogueEntries: []
