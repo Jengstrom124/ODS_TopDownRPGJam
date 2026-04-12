@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6743dedee55fe6409fa77a8265e8efa, type: 3}
-  m_Name: DialogueProfile_Penny
+  m_Name: DialogueProfile_WhiteBloodCell
   m_EditorClassIdentifier: 
-  characterName: Penny
-  dialogueSprite: {fileID: 1071030069, guid: cb97b73f146cc4d4794b0b2a0070ed1a, type: 3}
+  characterName: White Blood Cell
+  dialogueSprite: {fileID: -1514762505, guid: 2a4c81bfd00f89246bac675016b63051, type: 3}
   dialogueAnimator: {fileID: 0}
-  voiceClip: {fileID: 8300000, guid: cfd0393ac62aa4d37916c1ab41b10861, type: 3}
+  voiceClip: {fileID: 0}
   flipDialogueSprite: 0
   offset: 0
   innerOffset: 0

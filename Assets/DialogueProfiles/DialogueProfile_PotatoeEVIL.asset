@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6743dedee55fe6409fa77a8265e8efa, type: 3}
-  m_Name: DialogueProfile_Penny
+  m_Name: DialogueProfile_PotatoeEVIL
   m_EditorClassIdentifier: 
-  characterName: Penny
-  dialogueSprite: {fileID: 1071030069, guid: cb97b73f146cc4d4794b0b2a0070ed1a, type: 3}
-  dialogueAnimator: {fileID: 0}
-  voiceClip: {fileID: 8300000, guid: cfd0393ac62aa4d37916c1ab41b10861, type: 3}
-  flipDialogueSprite: 0
-  offset: 0
+  characterName: Potatoe
+  dialogueSprite: {fileID: -356556246, guid: 8bed3ffa236e6244fb345b1deaa95ac4, type: 3}
+  dialogueAnimator: {fileID: 9100000, guid: be62771d4e1a04848aab4677fbca0304, type: 2}
+  voiceClip: {fileID: 8300000, guid: c5ff2dd45ca6b458499d7b7c61b064cc, type: 3}
+  flipDialogueSprite: 1
+  offset: 600
   innerOffset: 0
   overrideSFXFrequency: 0
   SFXFrequency: 5

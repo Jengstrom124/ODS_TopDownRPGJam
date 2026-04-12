@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6743dedee55fe6409fa77a8265e8efa, type: 3}
-  m_Name: DialogueProfile_Narrator
+  m_Name: DialogueProfile_PennyEVIL
   m_EditorClassIdentifier: 
-  characterName: Narrator
-  dialogueSprite: {fileID: 0}
+  characterName: Penny
+  dialogueSprite: {fileID: 2127311549, guid: cb97b73f146cc4d4794b0b2a0070ed1a, type: 3}
   dialogueAnimator: {fileID: 0}
-  dialogueVoice:
-    Guid:
-      Data1: 837075056
-      Data2: 1100028548
-      Data3: 1398602907
-      Data4: -1555376338
-    Path: event:/SFX/Dialogue/Narrator Voice
+  voiceClip: {fileID: 8300000, guid: cfd0393ac62aa4d37916c1ab41b10861, type: 3}
   flipDialogueSprite: 0
+  offset: 0
+  innerOffset: 0
+  overrideSFXFrequency: 0
+  SFXFrequency: 5
+  animRefShortcut: NameTalk_

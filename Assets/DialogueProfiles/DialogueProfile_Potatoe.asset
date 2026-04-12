@@ -16,8 +16,8 @@ MonoBehaviour:
   dialogueSprite: {fileID: -200103211, guid: 8bed3ffa236e6244fb345b1deaa95ac4, type: 3}
   dialogueAnimator: {fileID: 9100000, guid: be62771d4e1a04848aab4677fbca0304, type: 2}
   voiceClip: {fileID: 8300000, guid: c5ff2dd45ca6b458499d7b7c61b064cc, type: 3}
-  flipDialogueSprite: 0
-  offset: 0
+  flipDialogueSprite: 1
+  offset: 600
   innerOffset: 0
   overrideSFXFrequency: 0
   SFXFrequency: 5

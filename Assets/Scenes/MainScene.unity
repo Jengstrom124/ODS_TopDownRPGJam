@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: startSFX
       value: 
-      objectReference: {fileID: 8300000, guid: 90bf978ea41b8422cb9198a5880a6c54, type: 3}
+      objectReference: {fileID: 8300000, guid: 7bd84d9dcfc612b4f88de45b951a6ac4, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
@@ -145,6 +145,18 @@ PrefabInstance:
       propertyPath: goodDialogue
       value: 
       objectReference: {fileID: 1520099826}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: jumpDuration
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.x
+      value: -53.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8118634685963411749, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: m_Name
       value: Potatoe
@@ -352,13 +364,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   participants:
   - dialogueProfile: {fileID: 11400000, guid: b88124b1f1ad13e43a21c59814abcb3a, type: 2}
-    dialogueBox: 5
+    dialogueBox: 9
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
     customOffset: 0
   - dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
-    dialogueBox: 4
+    dialogueBox: 5
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -1115,8 +1127,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participants:
-  - dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
-    dialogueBox: 4
+  - dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
+    dialogueBox: 9
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -1181,7 +1193,7 @@ MonoBehaviour:
   diagloueEntries:
   - dialogue: Apple is me
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1296,7 +1308,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: About 33 hours ago
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1411,7 +1423,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: An apple
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1526,7 +1538,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: Ya ya, im a fa- I MEAN im a audio enginer!
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1641,7 +1653,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: Yes
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1756,7 +1768,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: ...
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 044b0e0b75c37384e84131d2f01720ed, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -1942,14 +1954,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participants:
-  - dialogueProfile: {fileID: 11400000, guid: 39cd4aca8d309804b82eb2427e4b6322, type: 2}
-    dialogueBox: 4
+  - dialogueProfile: {fileID: 11400000, guid: 215f69b0aa6e4aa48b3ecbbaa3a371cb, type: 2}
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
     customOffset: 0
   - dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
-    dialogueBox: 4
+    dialogueBox: 5
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -2008,7 +2020,7 @@ MonoBehaviour:
   diagloueEntries:
   - dialogue: Hello white cell
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 39cd4aca8d309804b82eb2427e4b6322, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 215f69b0aa6e4aa48b3ecbbaa3a371cb, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -2123,7 +2135,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: About 3.374 cm EXACTLY
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 39cd4aca8d309804b82eb2427e4b6322, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 215f69b0aa6e4aa48b3ecbbaa3a371cb, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -2247,7 +2259,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: About 12 weeks, 4 days, and 3 hours. EXACTLY
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: 39cd4aca8d309804b82eb2427e4b6322, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: 215f69b0aa6e4aa48b3ecbbaa3a371cb, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -2407,7 +2419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   participants:
   - dialogueProfile: {fileID: 11400000, guid: 4d75da46eaddb7942b6f39a681fc2a3e, type: 2}
-    dialogueBox: 4
+    dialogueBox: 9
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -3158,7 +3170,7 @@ PrefabInstance:
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: startSFX
       value: 
-      objectReference: {fileID: 8300000, guid: f2e3520b338df45b8b3a840611e6573f, type: 3}
+      objectReference: {fileID: 8300000, guid: b6af7c47471412648a1f1719cc449d24, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
@@ -3167,6 +3179,14 @@ PrefabInstance:
       propertyPath: goodDialogue
       value: 
       objectReference: {fileID: 338873438}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.x
+      value: 48.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.y
+      value: -18.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8118634685963411749, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: m_Name
       value: Penny
@@ -3462,6 +3482,90 @@ MonoBehaviour:
       showDialogueReplyButtons: 0
       replyOptions: []
   myDialogueEntries: []
+--- !u!1 &292993683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 292993684}
+  - component: {fileID: 292993685}
+  m_Layer: 0
+  m_Name: 3-Heart Room (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &292993684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292993683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 579626149}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &292993685
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292993683}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 11c4a9e4e7e751042a0ce360cff8b32e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &316841982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3480,11 +3584,19 @@ PrefabInstance:
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: startSFX
       value: 
-      objectReference: {fileID: 8300000, guid: bd8660ba0c4a747e592e13be767cae8d, type: 3}
+      objectReference: {fileID: 8300000, guid: 79f13d8ffc1e4094ebb3647410a66b11, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
       objectReference: {fileID: 50994565}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.x
+      value: 71.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.y
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 8118634685963411749, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: m_Name
       value: Grandma
@@ -3703,6 +3815,90 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 48.1, y: 22.87}
   m_EdgeRadius: 0
+--- !u!1 &328352177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 328352178}
+  - component: {fileID: 328352179}
+  m_Layer: 0
+  m_Name: 1-head (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328352178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328352177}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 967352166}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &328352179
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328352177}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e21fed2475ed99d4f97becfa1b2bf0fc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &334156716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,7 +3957,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0098bdb89b6e07643acdd36a274a4e06, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04d4ea5ea6ee3514bb571a4e81dbe4c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3779,14 +3975,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334156716}
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 28.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1781528465}
   m_Father: {fileID: 1278706623}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &338873438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3860,7 +4057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   participants:
   - dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
-    dialogueBox: 4
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -4439,7 +4636,9 @@ Transform:
   m_LocalPosition: {x: -0.3, y: -20.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 410793740}
+  - {fileID: 827408785}
   m_Father: {fileID: 1278706623}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4484,7 +4683,91 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 44f5edabf1e4d244c87f61793efe981f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 651371ecb0d9609469496e2150bd3d7e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &410793739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410793740}
+  - component: {fileID: 410793741}
+  m_Layer: 0
+  m_Name: 5-Stomach (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410793740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410793739}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400432407}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &410793741
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410793739}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 66ce36a9ef270e347b9393d6149ff937, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4750,7 +5033,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 771b66f9adec87b4aa47fc0540f46cfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1934c9f940727674887ccd8ffc6a5769, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4772,7 +5055,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1363767785}
+  - {fileID: 292993684}
   m_Father: {fileID: 1278706623}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5294,6 +5579,90 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: -10}
   m_ApplyAfter: 1
   m_PreserveComposition: 0
+--- !u!1 &827408784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827408785}
+  - component: {fileID: 827408786}
+  m_Layer: 0
+  m_Name: 5-Stomach (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827408785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827408784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 400432407}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &827408786
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827408784}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 155c09cb5df2f5648a15e33533fe043d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &900260102
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,7 +5854,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ed1a547571d7ef4bbb995bdc363a3c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 962f40ab390cc1346912be856a31ee05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5507,7 +5876,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 57.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 328352178}
   m_Father: {fileID: 1278706623}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5989,8 +6359,12 @@ MonoBehaviour:
   forceBad: 0
   goodDialogue: {fileID: 1851211624}
   badDialogue: {fileID: 2107661216}
-  startSFX: {fileID: 8300000, guid: 9ecac8a7f90bc465d8b8813872c16ab9, type: 3}
+  startSFX: {fileID: 8300000, guid: 9514ad0ec000eba4ea6f024a84ae8e48, type: 3}
   deathSFX: {fileID: 8300000, guid: de0fefadbdf374d4a87a9799fe07e6f7, type: 3}
+  spinDuration: 2
+  deathJumpPos: {x: -71, y: 19.1, z: 0}
+  jumpPower: 1
+  jumpDuration: 3
   isGood: 1
 --- !u!1 &1278706622
 GameObject:
@@ -6228,6 +6602,90 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+--- !u!1 &1363767784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363767785}
+  - component: {fileID: 1363767786}
+  m_Layer: 0
+  m_Name: 3-Heart Room (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363767785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363767784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 579626149}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1363767786
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363767784}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1fd89cf48f7383f46bd2f6e8e8868cd5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1426965195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6300,8 +6758,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participants:
-  - dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
-    dialogueBox: 4
+  - dialogueProfile: {fileID: 11400000, guid: e4f7403fe77087242977da14907d75c1, type: 2}
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -6366,7 +6824,7 @@ MonoBehaviour:
   diagloueEntries:
   - dialogue: PLEASE DON'T KICK ME OUT, IM MADE OF CHOCOLATE PLEASE
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: e4f7403fe77087242977da14907d75c1, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -6481,7 +6939,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: A FEW MINUTES AGO
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: e4f7403fe77087242977da14907d75c1, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -6605,7 +7063,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: IM A CHOCOLATE COIN!
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: e4f7403fe77087242977da14907d75c1, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -6729,7 +7187,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: NOO
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: bf0a14ee89a69944f91211659bc44bbd, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: e4f7403fe77087242977da14907d75c1, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -7027,13 +7485,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   participants:
   - dialogueProfile: {fileID: 11400000, guid: 39cd4aca8d309804b82eb2427e4b6322, type: 2}
-    dialogueBox: 4
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
     customOffset: 0
   - dialogueProfile: {fileID: 11400000, guid: e04016de965bef44d8c04230e6fd0de9, type: 2}
-    dialogueBox: 4
+    dialogueBox: 5
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -7636,6 +8094,90 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 28.67573, y: 61.82647}
   m_EdgeRadius: 0
+--- !u!1 &1781528464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1781528465}
+  - component: {fileID: 1781528466}
+  m_Layer: 0
+  m_Name: 2-Esophagus (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1781528465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781528464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 334156718}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1781528466
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781528464}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 950a4aa6a3319af4a8ddded954c1bddb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 36.98, y: 20.80125}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1807437119
 GameObject:
   m_ObjectHideFlags: 0
@@ -7741,7 +8283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   participants:
   - dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
-    dialogueBox: 4
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -8990,8 +9532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   participants:
-  - dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
-    dialogueBox: 4
+  - dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
+    dialogueBox: 8
     spriteEntryTween: 0
     spriteExitTween: 0
     overrideOffset: 0
@@ -9056,7 +9598,7 @@ MonoBehaviour:
   diagloueEntries:
   - dialogue: I'm a pebble
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9171,7 +9713,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: I was eaten a few nights ago
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9295,7 +9837,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: Im a pebble why did you ask me that question I told you before!
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9428,7 +9970,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: How would i know I'm just a pebble
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9571,7 +10113,7 @@ MonoBehaviour:
   - dialogue: I was gifted down generations because I was found by Joe Carter When
       he was a child why would you care?
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9722,7 +10264,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: I TOLD YOU I'M A PEBBLE DON'T ASK ME AGAIN!!!
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -9882,7 +10424,7 @@ MonoBehaviour:
         replySelected: 0
   - dialogue: I WILL KILL YOU!!!
     speaker:
-      dialogueProfile: {fileID: 11400000, guid: aedb6d887a2a67e41b30327c4f26691c, type: 2}
+      dialogueProfile: {fileID: 11400000, guid: ad76c5be6a7ff1b43a0c44e4136412ba, type: 2}
       talkAnimation: {fileID: 0}
       additionalAnims: 0
       idleAnimation: {fileID: 0}
@@ -10028,7 +10570,7 @@ PrefabInstance:
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: startSFX
       value: 
-      objectReference: {fileID: 8300000, guid: 22d322b8ddcd944e68d313f80766c2c7, type: 3}
+      objectReference: {fileID: 8300000, guid: b776fc917e3ed3c4d985eeb83dc4e8e1, type: 3}
     - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: badDialogue
       value: 
@@ -10037,6 +10579,14 @@ PrefabInstance:
       propertyPath: goodDialogue
       value: 
       objectReference: {fileID: 152062237}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118634685963411748, guid: f0a60c906366af64fbefede820f09a24, type: 3}
+      propertyPath: deathJumpPos.y
+      value: 66.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8118634685963411749, guid: f0a60c906366af64fbefede820f09a24, type: 3}
       propertyPath: m_Name
       value: Pineapple
