@@ -7,6 +7,7 @@ public class PlayerModel : MonoBehaviour
     [Header("Setup")]
     [SerializeField] InteractionManager interactionManager;
     [SerializeField] float moveSpeed = 2f, sprintSpeed = 20f;
+    [SerializeField] AudioSource moveStartAudioSource, moveLoopAudioSource;
     float defaultMoveSpeed;
 
     Rigidbody2D rb;
@@ -40,7 +41,22 @@ public class PlayerModel : MonoBehaviour
     public bool IsMoving
     {
         get { return isMoving; }
-        set { isMoving = value; }
+        set
+        {
+            isMoving = value;
+
+            if(isMoving)
+            {
+                if(moveLoopAudioSource.isPlaying) return;
+                moveStartAudioSource.Play();
+                moveLoopAudioSource.PlayDelayed(0.5f);
+            }
+            else
+            {
+                moveStartAudioSource.Stop();
+                moveLoopAudioSource.Stop();
+            }
+        }
     }
     public void SetCurrentInteractable(IInteractable _newInteractable)
     {
