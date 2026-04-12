@@ -6,7 +6,8 @@ public class PlayerModel : MonoBehaviour
 {
     [Header("Setup")]
     [SerializeField] InteractionManager interactionManager;
-    [SerializeField] float moveSpeed = 2f;
+    [SerializeField] float moveSpeed = 2f, sprintSpeed = 20f;
+    float defaultMoveSpeed;
 
     Rigidbody2D rb;
 
@@ -18,6 +19,7 @@ public class PlayerModel : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        defaultMoveSpeed = moveSpeed;
     }
 
     void FixedUpdate()
@@ -58,11 +60,11 @@ public class PlayerModel : MonoBehaviour
     {
         if(isSprinting)
         {
-            Debug.Log("Start Sprinting");
+            moveSpeed = sprintSpeed;
         }
         else
         {
-            Debug.Log("Stop Sprinting");
+            moveSpeed = defaultMoveSpeed;
         }
     }
 }
