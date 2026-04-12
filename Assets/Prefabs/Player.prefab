@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionManager: {fileID: 6723743122837968163}
-  moveSpeed: 10
+  moveSpeed: 13
 --- !u!50 &6723743123065328736
 Rigidbody2D:
   serializedVersion: 4
